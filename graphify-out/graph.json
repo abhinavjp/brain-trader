@@ -1,0 +1,129 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_init_py",
+      "community": 10
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\agents\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_agents_init_py",
+      "community": 1
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\agents\\analysts\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_agents_analysts_init_py",
+      "community": 0
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\agents\\managers\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_agents_managers_init_py",
+      "community": 2
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\agents\\researchers\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_agents_researchers_init_py",
+      "community": 3
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\agents\\risk\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_agents_risk_init_py",
+      "community": 4
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\cli\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_cli_init_py",
+      "community": 5
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\config\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_config_init_py",
+      "community": 6
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\data\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_data_init_py",
+      "community": 7
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\data\\vendors\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_data_vendors_init_py",
+      "community": 8
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\graph\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_graph_init_py",
+      "community": 9
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\llm\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_llm_init_py",
+      "community": 11
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\llm\\providers\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_llm_providers_init_py",
+      "community": 12
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\memory\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_memory_init_py",
+      "community": 13
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "brain_trader\\observability\\__init__.py",
+      "source_location": "L1",
+      "id": "brain_trader_observability_init_py",
+      "community": 14
+    }
+  ],
+  "links": [],
+  "hyperedges": []
+}
