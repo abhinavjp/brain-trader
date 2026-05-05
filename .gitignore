@@ -1,0 +1,63 @@
+# Inspiration-only reference — never commit
+reference/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.lcov
+
+# Type checking
+.mypy_cache/
+.pytype/
+.pyre/
+
+# SQLite databases
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Brain Trader runtime output
+.brain_trader/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log

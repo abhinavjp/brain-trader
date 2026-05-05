@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Brain Trader — graphify pre-push hook
+# Generates an up-to-date knowledge graph of the brain_trader/ package on every push.
+#
+# Install once:
+#   cp docs/hooks/pre-push .git/hooks/pre-push
+#   chmod +x .git/hooks/pre-push
+#
+# Requires: Claude Code CLI (claude) in PATH
+
+set -e
+
+echo "[graphify] Generating knowledge graph for brain_trader/..."
+claude --dangerously-skip-permissions -p "/graphify brain_trader/" 2>&1 | tail -10
+echo "[graphify] Done."
